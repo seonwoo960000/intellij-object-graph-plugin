@@ -15,4 +15,9 @@
         <listener class="com.github.seonwoo960000.intellijobjectgraphplugin.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
+  <actions>
+    <action id="Start" class="com.github.seonwoo960000.intellijobjectgraphplugin.MyStartAction" text="Object Graph" description="start object graph">
+      <add-to-group group-id="ToolsMenu" anchor="first" />
+    </action>
+  </actions>
 </idea-plugin>
